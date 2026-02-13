@@ -1,5 +1,5 @@
-var { tab, element } = require('./data.js');
-var searchElement = require('./searchElement.js');
+var { tab, element } = require('data.js');
+var searchElement = require('searchElement.js');
 
 var displayResult = (pos) => {
     if (pos !== -1) {
